@@ -1,20 +1,20 @@
 <script>
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-    'event': 'eec.checkout',                // name of an event. In this case, always stays as eec.checkout
-    'ecommerce': {                          // ecommerce object. This is the essential part of tracking. New EE data must always be pushed to this object
-        'checkout': {                       // name of an action. In this case, always stays as checkout
+    'event': 'eec.checkout',                // nombre del evento. En este caso SIEMPRE es eec.checkout
+    'ecommerce': {                          // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
+        'checkout': {                       // nombre de una acción. En este caso SIEMPRE es checkout
             'actionField': {    
-                'step': 1                   // number of the checkout step that a user has entered (must always be 1 in this situation) 
+                'step': 1                   // número del paso de pago que un usuario ha ingresado (siempre debe ser 1 en esta situación)
             },
-            'products': [{                  // list of products a user had in a cart before entering the checkout 
-                'name': 'Citizen - SUPER TITANIUM. MODEL: AW0060-11P',      // name of a product that is currently viewed
-                'id': 'CIT30283',           // id of a product
-                'price': '330.00',          // price of a product
-                'brand': 'Citizen',         // brand/vendor of a product
-                'category': 'Watches',      // category of a product
-                'variant': 'Silver',        // product variant. If there are no variants, exclude this key from the dataLayer.push
-                'quantity': 1
+            'products': [{                  // lista de productos que un usuario tenía en el carrito antes de ingresar a la caja. Puede contener varios productos al mismo tiempo.
+                'name': 'Citizen - SUPER TITANIUM. MODEL: AW0060-11P',      // nombre de un producto que se agregó a un carrito
+                'id': 'CIT30283',           // id del producto
+                'price': '330.00',          // precio del producto
+                'brand': 'Citizen',         // marca del producto
+                'category': 'Watches',      // categoría del producto
+                'variant': 'Silver',        // variante de producto Si no hay variantes, excluye esta clave de dataLayer.push
+                'quantity': 1               // cantidad del producto agregado al carrito.
             }]
         }
     }
