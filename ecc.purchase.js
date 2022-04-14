@@ -5,7 +5,7 @@ window.dataLayer.push({
     'ecommerce': {                          // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
         'purchase': {                       // nombre de una acción. En este caso, SIEMPRE es compra.
             'actionField': {
-                'id': '155',                // order id. ESTE CAMPOR ES OBLIGATORIO
+                'id': '155',                // order id. ESTE CAMPO ES OBLIGATORIO
                 'affiliation': 'affiliate', // nombre o id del afilaido of the affiliate. or affiliate id
                 'revenue': '50.00',         // ingresos excluyendo los impuestos
                 'tax':'12.00',              // impuestos (excluyendo el transporte)
@@ -18,8 +18,17 @@ window.dataLayer.push({
                 'price': '330.00',          // precio del producto
                 'brand': 'Citizen',         // marca del producto
                 'category': 'Watches',      // categoría del producto
-                'variant': 'Silver',        // Variación del producto variant. En caso de no existir variaciones, se puede excluir
+                'variant': 'Silver',        // Variación del producto . En caso de no existir variaciones, se puede excluir
                 'quantity' : 1              // cantidad del producto
+            },
+            {
+            'name': 'Citizen - BUSINESS CLASS. MODEL: BC0099-11Z',      // nombre del producto que ha comprado el usuario
+            'id': 'CIT30288',               // id del producto
+            'price': '290.00',              // precio del producto
+            'brand': 'Citizen',             // marca del producto
+            'category': 'Watches',          // categoria del producto
+            'variant': 'Silver',            // Variación del producto . En caso de no existir variaciones, se puede excluir
+            'quantity' : 1                  // cantidad del producto
              }]
         }   
   }
