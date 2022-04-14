@@ -1,9 +1,9 @@
 <script>
 window.dataLayer  = window.dataLayer || [];
 window.dataLayer.push({
-    'event': 'eec.purchase',                // nombre del evento. En este aso SUEMPRE es eec.purchase
-    'ecommerce': {                          // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
-        'purchase': {                       // nombre de una acción. En este caso, SIEMPRE es compra.
+    'event': 'eec.purchase',                // nombre del evento. En este caso SIEMPRE es eec.purchase
+    'ecommerce': {                          // objeto ecommerce. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
+        'purchase': {                       // nombre de la acción. En este caso, SIEMPRE es purchase.
             'actionField': {
                 'id': '155',                // order id. ESTE CAMPO ES OBLIGATORIO
                 'affiliation': 'affiliate', // nombre o id del afilaido of the affiliate. or affiliate id
@@ -18,7 +18,7 @@ window.dataLayer.push({
                 'price': '330.00',          // precio del producto
                 'brand': 'Citizen',         // marca del producto
                 'category': 'Watches',      // categoría del producto
-                'variant': 'Silver',        // Variación del producto . En caso de no existir variaciones, se puede excluir
+                'variant': 'Silver',        // Variación del producto. En caso de no existir variaciones, se puede excluir
                 'quantity' : 1              // cantidad del producto
             },
             {
