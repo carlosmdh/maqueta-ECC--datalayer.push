@@ -2,9 +2,9 @@
 window.dataLayer  = window.dataLayer || [];
 window.dataLayer.push({
 	'event': 'eec.productImpression',   	// nombre del evento. En este caso SIEMPRE es eec.productImpression
-	'ecommerce': {							// objeto ecommerce. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
-		'currencyCode': 'EUR', 				// la moneda que está configurada actualmente
-		'impressions': [					// tipo de una acción de comercio electrónico. En este caso, SIEMPRE es impressions
+	'ecommerce': {				// objeto ecommerce. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
+		'currencyCode': 'EUR', 		// la moneda que está configurada actualmente
+		'impressions': [		// tipo de la acción de comercio electrónico. En este caso, SIEMPRE es impressions
 		 {
 			'name': 'Citizen - SUPER TITANIUM. MODEL: AW0060-11P',		// nombre del producto que se muestra. INCLUIRLO SIEMPRE
 			'id': 'CIT30283',						// id del producto. INCLUIRLO SIEMPRE
