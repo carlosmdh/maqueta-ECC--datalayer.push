@@ -5,7 +5,7 @@ window.dataLayer.push({
     'ecommerce': {                          // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
         'checkout': {                       // nombre de una acción. En este caso SIEMPRE es checkout
             'actionField': {    
-                'step': 1                   // número del paso de pago que un usuario ha ingresado (siempre debe ser 1 en esta situación)
+                'step': 1                   // número del paso de pago actual (siempre debe ser 1 en esta situación)
             },
             'products': [{                  // lista de productos que un usuario tenía en el carrito antes de ingresar a la caja. Puede contener varios productos al mismo tiempo.
                 'name': 'Citizen - SUPER TITANIUM. MODEL: AW0060-11P',      // nombre de un producto que se agregó a un carrito
