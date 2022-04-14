@@ -1,4 +1,3 @@
-<script>
 window.dataLayer  = window.dataLayer || [];
 window.dataLayer.push({
 	'event': 'eec.productImpression',   	// name of an event. In this case, always stays as eec.productImpression
@@ -26,4 +25,3 @@ window.dataLayer.push({
 			'position': '2'     }]
 	}
 });
-</script>
