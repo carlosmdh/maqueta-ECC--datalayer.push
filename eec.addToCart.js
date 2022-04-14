@@ -4,7 +4,7 @@ window.dataLayer.push({
     'event': 'eec.addToCart',               // nombre del evento. En este caso SIEMPRE es eec.addToCart
     'ecommerce': {                          // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
         'currencyCode': 'EUR',              // la moneda que utiliza actualmente un visitante
-        'add': {                            // nombre de una acción. En este caso SIEMPRE es como add
+        'add': {                            // nombre de una acción. En este caso SIEMPRE es add
             'actionField': {            
                 'list': 'main'              // nombre de una lista desde la cual se agregó el producto a un carrito. OPCIONAL.
               },        
