@@ -1,19 +1,19 @@
 window.dataLayer  = window.dataLayer || [];
 window.dataLayer.push({
-    'event': 'eec.productClick',    // name of an event. In this case, always stays as eec.productClick
-    'ecommerce': {                  // ecommerce object. This is the essential part of tracking. New EE data must always be pushed to this object
-      'click': {                    // name of an action. In this case, always stays as click
+    'event': 'eec.productClick',    // nombre del evento. En este aso SUEMPRE es eec.productClick
+    'ecommerce': {                  // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
+      'click': {                    // nombre de la acción. En este caso, SIEMPRE es click
         'actionField': {
-            'list': 'main'          //name of a list in which the product was clicked  
+            'list': 'main'          // nombre de la lsita en al que el usaurio ha hecho click  
         },  
         'products': [{
-            'name': 'Citizen - SUPER TITANIUM. MODEL: AW0060-11P',      // name of a product that was clicked. Always include it.
-            'id': 'CIT30283',       // id of a product. Always include it.
-            'price': '330.00',      // price of a product
-            'brand': 'Citizen',     // brand/vendor of a product
-            'category': 'Watches',  // category of a product
-            'variant': 'Silver',    // product variant. If there are no variants, exclude this key from the dataLayer.push
-            'position': '1'         // number of a position (in which a product was visible at that time)
+            'name': 'Citizen - SUPER TITANIUM. MODEL: AW0060-11P',      // nombre del producto que ha comprado el usuario ha hecho click. INCLUIRLO SIEMPRE
+            'id': 'CIT30283',       // id del producto. INCLUIRLO SIEMPRE
+            'price': '330.00',      // precio productO
+            'brand': 'Citizen',     // marca del producto
+            'category': 'Watches',  // categoría deñ producto
+            'variant': 'Silver',    // Variación del producto. En caso de no existir variaciones, se puede excluir
+            'position': '1'         // número de la posición (en la que un producto era visible en ese momento)
        }]
      }
   }
