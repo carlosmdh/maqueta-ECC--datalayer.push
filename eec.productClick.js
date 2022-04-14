@@ -1,7 +1,7 @@
 window.dataLayer  = window.dataLayer || [];
 window.dataLayer.push({
     'event': 'eec.productClick',    // nombre del evento. En este aso SUEMPRE es eec.productClick
-    'ecommerce': {                  // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
+    'ecommerce': {                  // objeto ecommerce. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
       'click': {                    // nombre de la acción. En este caso, SIEMPRE es click
         'actionField': {
             'list': 'main'          // nombre de la lista de productos en la que el usuario ha hecho click  
