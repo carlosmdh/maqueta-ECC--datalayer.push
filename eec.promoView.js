@@ -1,21 +1,21 @@
 <script>
 window.dataLayer  = window.dataLayer || [];
 window.dataLayer.push({
-	'event': 'eec.promoView',					// name of an event. In this case, always stays as eec.promoView
-	'ecommerce': {								// ecommerce object. This is the essential part of tracking. New data must always be pushed to this object
-		'promoView': {							// name of an action. In this case, always stays as promoView
-		  'promotions': [                     	// list of promotions or banners displayed to a user
+	'event': 'eec.promoView',				// nombre del evento. En este caso SIEMPRE es eec.promoView
+	'ecommerce': {						// objeto ecommerce. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
+		'promoView': {					// nombre de la acción. En este caso, SIEMPRE promoView
+		  'promotions': [                     		// lista de las promociones o banners mostrados
 		   {
-			 'id': 'summer_sale2019_1',       	// id of a banner         
-			 'name': 'Summer sale 2019_1',     	// name of a banner
-			 'creative': 'Home Page Carousel',	// type of a banner	
-			 'position': 'Slide 1'       		// position of a banner
+			 'id': 'summer_sale2019_1',       	// id del banner 1
+			 'name': 'Summer sale 2019_1',     	// nombre del banner 1
+			 'creative': 'Home Page Carousel',	// tipo de banner 1
+			 'position': 'Slide 1'       		// posición delbanner 1
 			},				
 		   {
-			 'id': 'summer_sale2019_2',           
-			 'name': 'Summer sale 2019_2',
-			 'creative': 'Sidebar',
-			 'position': 'slot 1'       
+			 'id': 'summer_sale2019_2',		// id del banner 2
+			 'name': 'Summer sale 2019_2',		// nombre del banner 2
+			 'creative': 'Sidebar',			// tipo de banner 2
+			 'position': 'slot 1'       		// posición delbanner 2
 			}]
 		}
   }
