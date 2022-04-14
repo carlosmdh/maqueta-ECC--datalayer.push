@@ -4,7 +4,7 @@ window.dataLayer.push({
     'ecommerce': {                  // objeto de comercio electrónico. Esta es la parte esencial del seguimiento. Los nuevos datos de EE siempre deben enviarse a este objeto
       'click': {                    // nombre de la acción. En este caso, SIEMPRE es click
         'actionField': {
-            'list': 'main'          // nombre de la lsita en al que el usaurio ha hecho click  
+            'list': 'main'          // nombre de la lista de productos en la que el usuario ha hecho click  
         },  
         'products': [{
             'name': 'Citizen - SUPER TITANIUM. MODEL: AW0060-11P',      // nombre del producto que ha comprado el usuario ha hecho click. INCLUIRLO SIEMPRE
